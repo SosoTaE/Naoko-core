@@ -1,0 +1,22 @@
+{
+  "sending_data": {
+    "body": "hello",
+    "from": {
+      "address": "sosotae1615@gmail.com",
+      "name": "SosoTaE"
+    },
+    "reply_to": {
+      "address": "sosotae1615@gmail.com",
+      "name": "SosoTaE"
+    },
+    "subject": "testing",
+    "to": "tavdgiridze@propertyminder.com"
+  },
+  "smtp_server": {
+    "address": "smtp.gmail.com",
+    "credentials": {
+      "email": "sosotae1615@gmail.com",
+      "password": "cekn xcce bvuz ipyi"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+[package]
+name = "NAOKO_AI"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# 🧠 AI & Orchestration
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.13", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+async-trait = "0.1"
+
+# 🗄️ Memory (Vector Database)
+qdrant-client = "1.16"
+uuid = { version = "1.0", features = ["v4", "serde"] }
+
+# 🛡️ Security & OS Integration (KDE Wallet)
+# Enabling 'sync-secret-service' allows interaction with KWallet's API
+keyring = { version = "3", features = ["sync-secret-service"] }
+
+# 📊 System Monitoring & Aesthetics
+sysinfo = "0.30"
+colored = "2.1"
+chrono = { version = "0.4", features = ["serde"] }
+
+# 🛠️ Utilities
+anyhow = "1.0"
+actix-web = "4"

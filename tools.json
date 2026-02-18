@@ -1,0 +1,14 @@
+[
+  {
+    "name": "email_dispatch",
+    "executable": "./tools/email_sender",
+    "tag": "email_dispatch",
+    "description": "CRITICAL: You MUST use this EXACT nested structure: {\"sending_data\": {\"from\": {\"name\": \"string\", \"address\": \"string\"}, \"reply_to\": {\"name\": \"string\", \"address\": \"string\"}, \"to\": \"string\", \"subject\": \"string\", \"body\": \"string\"}, \"smtp_server\": {\"address\": \"smtp_address\", \"credentials\": {\"email\": \"sender_email\"}}}"
+  },
+  {
+    "name": "system_stats",
+    "executable": "./tools/system_stats",
+    "tag": "get_system_info",
+    "description": "Retrieves real-time system health metrics including CPU load, RAM usage, kernel version, and uptime. Use this tool whenever the user asks about system performance, health, or if the machine is running slowly."
+  }
+]
